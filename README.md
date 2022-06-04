@@ -5,7 +5,7 @@
    <br />
    <a href="https://www.postgresql.org/" target="blank"><img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-20.jpg" width="320" alt="Nest Logo" /></a>
    <br />
-    <a href="https://www.docker.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" width="320" alt="Nest Logo" /></a>
+    <a href="https://www.docker.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" width="320" alt="Docker Logo" /></a>
    
 </p>
 
@@ -43,3 +43,5 @@ $ docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d 
 $ docker container stop postgres-nest
 $ docker container rm postgres-nest
 ```
+
+### Object Relational Mapping (ORM)
