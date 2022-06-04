@@ -27,3 +27,5 @@ body { title: 'Learn Nest', description: 'Nestjs' }
 ```ts
 (@Body('title') title: string, @Body('description') description: string)
 ```
+### Data Transfer Object (DTO)
+
