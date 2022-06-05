@@ -66,3 +66,7 @@ const query = this.createQueryBuilder('task');
 - @nestjs/typeorm
 - pg
 - bcrypt
+- @nestjs/passport
+- @nestjs/jwt
+- jwt
+- passport

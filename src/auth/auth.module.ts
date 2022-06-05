@@ -13,9 +13,9 @@ import { JwtModule } from '@nestjs/jwt';
       secret: 'topSecret51',
       signOptions: {
         expiresIn: 3600,
-      }
+      },
     }),
-    TypeOrmModule.forFeature([UserRepository])
+    TypeOrmModule.forFeature([UserRepository]),
   ],
   providers: [AuthService],
   controllers: [AuthController],
