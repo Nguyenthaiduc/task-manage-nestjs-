@@ -45,3 +45,13 @@ $ docker container rm postgres-nest
 ```
 
 ### Object Relational Mapping (ORM)
+
+### QUERY
+```ts
+const query = this.createQueryBuilder('task');
+
+    if(status) {
+      query.andWhere('task.status = :status',{ status: 'OPEN' }); //&&
+    }
+```
+- :status là bảng status
