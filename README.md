@@ -55,3 +55,14 @@ const query = this.createQueryBuilder('task');
     }
 ```
 - :status là bảng status
+
+### TOOLS
+- SHA256
+
+### PACKAGE
+- class-validator
+- class-transformer
+- typeorm
+- @nestjs/typeorm
+- pg
+- bcrypt
