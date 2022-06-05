@@ -70,3 +70,4 @@ const query = this.createQueryBuilder('task');
 - @nestjs/jwt
 - jwt
 - passport
+- @nestjs/config
