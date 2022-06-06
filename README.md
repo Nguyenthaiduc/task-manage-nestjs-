@@ -71,3 +71,11 @@ const query = this.createQueryBuilder('task');
 - jwt
 - passport
 - @nestjs/config
+
+### Deployment Heroku
+```bash
+$ npm i -g heroku
+$ heroku login
+$ heroku addons:create heroku-postgresql:hobby-dev -a task-management-ntd
+$ 
+```
