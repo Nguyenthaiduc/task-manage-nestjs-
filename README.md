@@ -77,5 +77,14 @@ const query = this.createQueryBuilder('task');
 $ npm i -g heroku
 $ heroku login
 $ heroku addons:create heroku-postgresql:hobby-dev -a task-management-ntd
-$ 
+$ heroku git:remote task-management-ntd
+$ heroku config:set NPM_CONFIG_PRODUCTION=false
+$ heroku config:set NODE_ENV=production
+$ heroku config:set STAGE=prod
+$ heroku config:set DB_HOST=<host>
+$ heroku config:set DB_PORT=5432
+$ heroku config:set DB_USERNAME=yqrzzdtgppzyvi
+$ heroku config:set DB_PASSWORD=
+$ heroku config:set DB_DATABASE=d4mcmep5jmk75
+$ heroku config:set JWT_SECRET=Ktd8UeZ3ewny3XBWSw5vLLCckAVPEPcatqJQxGpj4cpvwqhzueMS7LDajDqTCkE4
 ```
